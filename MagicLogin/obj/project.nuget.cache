@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vPg0rhOqECzOR2PA9NcUmW9m55D3uC4YqWRWOCVHYCgP8gnSDZHo3MGTAZAZw0UV8aZHsDlGAE+ZtdTrw7DyBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yanni\\Documents\\school\\semester 3\\magic2\\MagicLogin\\MagicLogin\\MagicLogin\\MagicLogin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yanni\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
