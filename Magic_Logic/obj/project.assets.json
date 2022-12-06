@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Magic_Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Magic_Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Magic_Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Magic_Interface/1.0.0": {
+      "type": "project",
+      "path": "../Magic_Interface/Magic_Interface.csproj",
+      "msbuildProject": "../Magic_Interface/Magic_Interface.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Magic_Interface >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\yanni\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\yanni\\Documents\\school\\semester 3\\magic2\\MagicLogin\\Magic_Logic\\Magic_Logic.csproj",
+      "projectName": "Magic_Logic",
+      "projectPath": "C:\\Users\\yanni\\Documents\\school\\semester 3\\magic2\\MagicLogin\\Magic_Logic\\Magic_Logic.csproj",
+      "packagesPath": "C:\\Users\\yanni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yanni\\Documents\\school\\semester 3\\magic2\\MagicLogin\\Magic_Logic\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\yanni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\yanni\\Documents\\school\\semester 3\\magic2\\MagicLogin\\Magic_Interface\\Magic_Interface.csproj": {
+              "projectPath": "C:\\Users\\yanni\\Documents\\school\\semester 3\\magic2\\MagicLogin\\Magic_Interface\\Magic_Interface.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

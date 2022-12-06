@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Magic_Logic/1.0.0": {
+        "dependencies": {
+          "Magic_Interface": "1.0.0"
+        },
+        "runtime": {
+          "Magic_Logic.dll": {}
+        }
+      },
+      "Magic_Interface/1.0.0": {
+        "runtime": {
+          "Magic_Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Magic_Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Magic_Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

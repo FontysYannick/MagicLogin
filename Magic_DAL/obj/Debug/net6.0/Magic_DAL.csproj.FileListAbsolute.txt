@@ -1,0 +1,15 @@
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\obj\Debug\net6.0\Magic_DAL.csproj.AssemblyReference.cache
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\obj\Debug\net6.0\Magic_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\obj\Debug\net6.0\Magic_DAL.AssemblyInfoInputs.cache
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\obj\Debug\net6.0\Magic_DAL.AssemblyInfo.cs
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\obj\Debug\net6.0\Magic_DAL.csproj.CoreCompileInputs.cache
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\bin\Debug\net6.0\Magic_DAL.deps.json
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\bin\Debug\net6.0\Magic_DAL.dll
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\bin\Debug\net6.0\Magic_DAL.pdb
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\bin\Debug\net6.0\Magic_Interface.dll
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\bin\Debug\net6.0\Magic_Interface.pdb
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\obj\Debug\net6.0\Magic_DAL.csproj.CopyComplete
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\obj\Debug\net6.0\Magic_DAL.dll
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\obj\Debug\net6.0\refint\Magic_DAL.dll
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\obj\Debug\net6.0\Magic_DAL.pdb
+C:\Users\yanni\Documents\school\semester 3\magic2\MagicLogin\Magic_DAL\obj\Debug\net6.0\ref\Magic_DAL.dll
