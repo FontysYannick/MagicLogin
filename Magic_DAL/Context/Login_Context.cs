@@ -19,9 +19,12 @@ namespace Magic_DAL.Context
 
         public LoginDTO AttemptLogin(LoginDTO loginDTO)
         {
-            List<LoginDTO> list = new List<LoginDTO>();
+            LoginDTO user = new LoginDTO();
+            bool verified = false;
 
-            var sql = "SELECT * from [User]";
+
+            var sql = "SELECT * FROM [User] WHERE Name = (@Name)";
+
 
             //execute statement
             try
@@ -29,7 +32,13 @@ namespace Magic_DAL.Context
                 using (connection)
                 {
                     //execute query on database and return result
-                    list = connection.Query<LoginDTO>(sql).ToList();
+                    user = connection.QuerySingle<LoginDTO>(sql, new { Name = loginDTO.Name });
+                    verified = BCrypt.Net.BCrypt.Verify(loginDTO.Password, user.Password.ToString().Trim());
+
+                    if (!verified)
+                    {
+                        throw new Exception("Incorrect credentials");
+                    }
                 }
             }
 
@@ -45,7 +54,7 @@ namespace Magic_DAL.Context
                 connection.Close();
             }
 
-            return list[0];
+            return user;
         }
 
 
